@@ -4,6 +4,8 @@
 
 <script setup lang="ts">
 const simple = useState(() => 'Hello World');
-console.log(simple);
+const appConfig = useAppConfig()
+console.log(appConfig)
+//console.log(simple);
 </script>
 
